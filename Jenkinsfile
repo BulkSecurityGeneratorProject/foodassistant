@@ -54,7 +54,7 @@ node {
             }
         }
     }
-
+ 
     def dockerImage
     stage('build docker') {
         sh "cp -R src/main/docker target/"
